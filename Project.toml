@@ -1,0 +1,7 @@
+name = "TemporalValidation"
+uuid = "f79f0bf1-1354-4cf9-927e-3c17a0964692"
+authors = ["Brandon Behring"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
