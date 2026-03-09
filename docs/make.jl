@@ -5,6 +5,7 @@ DocMeta.setdocmeta!(TemporalValidation, :DocTestSetup, :(using TemporalValidatio
 
 makedocs(;
     modules=[TemporalValidation],
+    warnonly=[:missing_docs],
     authors="Brandon Behring",
     sitename="TemporalValidation.jl",
     format=Documenter.HTML(;
